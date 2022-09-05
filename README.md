@@ -5,7 +5,7 @@ Now a brief explanation about each functionality (the code is also commented). T
 
 ##### To show all options 
 ```
-$ ./script_deply --help
+$ ./script_deploy --help
 ```
 ##### The message will be this
 
@@ -31,7 +31,7 @@ $ ./script_deply --help
 
 ##### To run a deploy 
 ```
-$ ./script_deply --hml || prod
+$ ./script_deploy --hml || prod
 ```
 ##### The message will be this
 
