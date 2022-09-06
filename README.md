@@ -1,7 +1,7 @@
 # A bash script to do deploys
 This script was designed for an architectural model, but because its structure is made up of functions, it is easily adaptable to almost any environment. I chose to do it this way so that in the future it would be easier and more practical to change and maintain.
 
-Now a brief explanation about each functionality (the code is also commented). The only external commands inside the script are from Docker and Aws
+Now a brief explanation about each functionality (the code is also commented). The only external commands inside the script are from Docker and AWS.
 
 ##### To show all options 
 ```
@@ -31,7 +31,7 @@ $ ./script_deploy --help
 
 ##### To run a deploy 
 ```
-$ ./script_deploy --hml || prod
+$ ./script_deploy --hml || --prod
 ```
 ##### The message will be this
 
